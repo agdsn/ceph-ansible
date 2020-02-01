@@ -1,0 +1,10 @@
+namespace: "lukasjuhrich"
+name: "ceph_ansible"
+version: "4.0.14"
+readme: "README.rst"
+authors:
+    - "Contributors of https://github.com/ceph/ceph-ansible"
+    - "Lukas Juhrich"
+license:
+    - "Apache-2.0"
+repository: "https://github.com/agdsn/ceph-ansible"

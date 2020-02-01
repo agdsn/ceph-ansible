@@ -11,6 +11,7 @@ group_vars/rgws
 group_vars/*.yml
 *.DS_Store
 /*.yml
+!galaxy.yml
 *.pyc
 *.sw?
 .tox
