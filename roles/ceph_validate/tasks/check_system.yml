@@ -63,7 +63,7 @@
     msg: "Ansible version must be 2.8!"
   when:
     - ansible_version.major|int == 2
-    - ansible_version.minor|int != 8
+    - ansible_version.minor|int < 8
 
 - name: fail if systemd is not present
   fail:
